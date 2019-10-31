@@ -6,6 +6,14 @@ void readEntry( int& entry);
 
 int main() {
 
+    ifstream input;
+    ofstream output;
+
+    input.open("inFile");
+    if(!input.is_open()){
+        cout << "File is not open" << endl;
+    }
+    output.open("outFile");
 
     // read table dimensions and allocate 2D array
     int nRows, nCols;
@@ -31,7 +39,11 @@ int main() {
                     cin >> tmp;
             }
         }
+
+        input.close();
+        output.close();
     }
+
 
 
     // write table data to the screen in transposed order
