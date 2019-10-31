@@ -1,0 +1,4 @@
+Entry 0,1 not an integer, was set to 0, now setting it to 0
+2 2
+3 17 
+0 23 
