@@ -1,4 +1,6 @@
-Entry 0,1 not an integer, was set to 0, now setting it to 0
-2 2
-3 17 
-0 23 
+Entry 1,1 not an integer, was set to 0, now setting it to 0
+Entry 2,1 not an integer, was set to 0, now setting it to 0
+3 3
+1 4 7 
+2 0 0 
+3 6 8 
